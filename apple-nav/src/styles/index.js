@@ -19,4 +19,7 @@ export const TopNavContent = styled.div`
 export const NavItem = styled.div`
     color: white;
     text-decoration: none;
+    &:hover {
+        color: rgb(146, 146, 146);
+    }
 `;
