@@ -1,9 +1,13 @@
 import React from 'react';
 import TopNavbar from './TopNavbar';
+import SubNavbar from './SubNavbar';
 
-const NavWrapper = (props) => {
+const NavWrapper = () => {
     return (
-        <TopNavbar />
+        <div>
+            <TopNavbar />
+            <SubNavbar />
+        </div>
     );
 }
 
