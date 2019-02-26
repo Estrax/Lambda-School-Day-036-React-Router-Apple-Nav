@@ -10,14 +10,14 @@ class App extends Component {
       <div>
         <NavWrapper />
         <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/mac" exact component={() => <Product product="mac" />} />
-          <Route path="/ipad" exact component={() => <Product product="ipad" />} />
-          <Route path="/iphone" exact component={() => <Product product="iphone" />} />
-          <Route path="/watch" exact component={() => <Product product="watch" />} />
-          <Route path="/tv" exact component={() => <Product product="tv" />} />
-          <Route path="/music" exact component={() => <Product product="music" />} />
-          <Route path="/support" exact component={() => <Product product="support" />} />
+          <Route path="/" exact render={() => <Home />} />
+          <Route path="/mac" exact render={() => <Product product="mac" />} />
+          <Route path="/ipad" exact render={() => <Product product="ipad" />} />
+          <Route path="/iphone" exact render={() => <Product product="iphone" />} />
+          <Route path="/watch" exact render={() => <Product product="watch" />} />
+          <Route path="/tv" exact render={() => <Product product="tv" />} />
+          <Route path="/music" exact render={() => <Product product="music" />} />
+          <Route path="/support" exact render={() => <Product product="support" />} />
         </Switch>
       </div>
     );

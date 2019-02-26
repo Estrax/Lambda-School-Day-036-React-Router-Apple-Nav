@@ -14,13 +14,13 @@ const SubNavbar = () => {
         <SubNav light={lightBg}>
             <SubNavProduct>
                 <Switch>
-                    <Route path="/mac" exact component={() => <SubNavbarItems product="mac" data={data.macData}/>} />
-                    <Route path="/ipad" exact component={() => <SubNavbarItems product="ipad" data={data.ipadData} />} />
-                    <Route path="/iphone" exact component={() => <SubNavbarItems product="iphone" data={data.iphoneData} />} />
-                    <Route path="/watch" exact component={() => <SubNavbarItems product="watch" data={data.watchData} />} />
-                    <Route path="/tv" exact component={() => <SubNavbarItems product="tv" data={data.tvData} />} />
-                    <Route path="/music" exact component={() => <SubNavbarItems product="music" data={data.musicData} />} />
-                    <Route path="/support" exact component={() => <SubNavbarItems product="support" data={[]} />} />
+                    <Route path="/mac" exact render={() => <SubNavbarItems product="mac" data={data.macData}/>} />
+                    <Route path="/ipad" exact render={() => <SubNavbarItems product="ipad" data={data.ipadData} />} />
+                    <Route path="/iphone" exact render={() => <SubNavbarItems product="iphone" data={data.iphoneData} />} />
+                    <Route path="/watch" exact render={() => <SubNavbarItems product="watch" data={data.watchData} />} />
+                    <Route path="/tv" exact render={() => <SubNavbarItems product="tv" data={data.tvData} />} />
+                    <Route path="/music" exact render={() => <SubNavbarItems product="music" data={data.musicData} />} />
+                    <Route path="/support" exact render={() => <SubNavbarItems product="support" data={[]} />} />
                 </Switch>
             </SubNavProduct>
         </SubNav>
