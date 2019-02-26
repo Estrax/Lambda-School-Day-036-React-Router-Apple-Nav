@@ -1,7 +1,7 @@
 const Data =  {
     macData: [
         {icon:  'https://www.apple.com/v/mac/home/ac/images/familybrowser/macbook_dark_large.svg', 
-         name:  'MacBook'},
+        name:  'MacBook'},
         {icon: 'https://www.apple.com/v/mac/home/ac/images/familybrowser/macbookair_dark_large.svg', 
         name:  'MacBook Air'},
         {icon: 'https://www.apple.com/v/mac/home/ac/images/familybrowser/macbookpro_dark_large.svg',
@@ -24,7 +24,7 @@ const Data =  {
 
     ipadData: [
         {icon: 'https://www.apple.com/v/ipad/home/ai/images/home/familybrowser/ipadpro_light_large.svg',
-         name: 'iPad Pro'},
+        name: 'iPad Pro'},
         {icon: 'https://www.apple.com/v/ipad/home/ai/images/home/familybrowser/ipad_large.svg',
         name: 'iPad'},
         {icon: 'https://www.apple.com/v/ipad/home/ai/images/home/familybrowser/ipadmini_large.svg',
@@ -39,7 +39,7 @@ const Data =  {
 
     iphoneData: [
         {icon: 'https://www.apple.com/v/iphone/home/y/images/chapternav/iphonexs_dark_large.svg',
-         name: 'iPhone Xs'},
+        name: 'iPhone Xs'},
         {icon: 'https://www.apple.com/v/iphone/home/y/images/chapternav/iphonexr_dark_large.svg',
         name: 'iPhone Xr'},
         {icon: 'https://www.apple.com/v/iphone/home/y/images/chapternav/iphone8_dark_large.svg',
@@ -58,7 +58,7 @@ const Data =  {
 
     watchData: [
         {icon: 'https://www.apple.com/v/watch/home/k/images/watch_nav_series_2_large.svg',
-         name: 'Apple Watch Series 4'},
+        name: 'Apple Watch Series 4'},
         {icon: 'https://www.apple.com/v/watch/home/k/images/watch_nav_nike_large.svg',
         name: 'Apple Watch Nike+'},
         {icon: 'https://www.apple.com/v/watch/home/k/images/watch_nav_hermes_large.svg',
